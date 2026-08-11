@@ -1,0 +1,53 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="760" rx="28" fill="#f8fafc"/>
+  <text x="700" y="70" text-anchor="middle" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">Assistive AI Framework for Cyber Risk Assessment Training</text>
+  <text x="700" y="112" text-anchor="middle" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">Learner-aware scenario generation with quality assurance, instructor review, and measurable training outcomes</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    <rect x="70" y="180" width="210" height="110" rx="18" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="175" y="226" text-anchor="middle" fill="#1e3a8a">Learner Profile</text>
+    <text x="175" y="255" text-anchor="middle" fill="#1e40af" font-size="13">level · progress · mistakes</text>
+
+    <rect x="70" y="340" width="210" height="110" rx="18" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="175" y="386" text-anchor="middle" fill="#065f46">Learning Goals</text>
+    <text x="175" y="415" text-anchor="middle" fill="#047857" font-size="13">risk skill · rubric · task</text>
+
+    <rect x="70" y="500" width="210" height="110" rx="18" fill="#fef3c7" stroke="#d97706"/>
+    <text x="175" y="546" text-anchor="middle" fill="#92400e">Cyber Range Context</text>
+    <text x="175" y="575" text-anchor="middle" fill="#b45309" font-size="13">assets · services · sector</text>
+
+    <rect x="380" y="300" width="230" height="150" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="495" y="352" text-anchor="middle" fill="#4c1d95" font-size="18">Scenario Generator</text>
+    <text x="495" y="386" text-anchor="middle" fill="#5b21b6" font-size="14">LLM-assisted draft</text>
+    <text x="495" y="414" text-anchor="middle" fill="#5b21b6" font-size="14">adaptive variation</text>
+
+    <rect x="720" y="300" width="230" height="150" rx="22" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+    <text x="835" y="352" text-anchor="middle" fill="#155e75" font-size="18">Quality Assurance</text>
+    <text x="835" y="386" text-anchor="middle" fill="#0e7490" font-size="14">correctness · realism</text>
+    <text x="835" y="414" text-anchor="middle" fill="#0e7490" font-size="14">safety · consistency</text>
+
+    <rect x="1060" y="185" width="250" height="120" rx="20" fill="#fff1f2" stroke="#e11d48"/>
+    <text x="1185" y="235" text-anchor="middle" fill="#9f1239" font-size="18">Instructor Review</text>
+    <text x="1185" y="264" text-anchor="middle" fill="#be123c" font-size="14">human oversight</text>
+
+    <rect x="1060" y="360" width="250" height="120" rx="20" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="1185" y="410" text-anchor="middle" fill="#166534" font-size="18">Training Scenario</text>
+    <text x="1185" y="439" text-anchor="middle" fill="#15803d" font-size="14">risk assessment task</text>
+
+    <rect x="1060" y="535" width="250" height="120" rx="20" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="1185" y="585" text-anchor="middle" fill="#075985" font-size="18">Evaluation Evidence</text>
+    <text x="1185" y="614" text-anchor="middle" fill="#0369a1" font-size="14">performance · engagement</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M280 235 C330 235 330 330 380 350"/>
+    <path d="M280 395 H380"/>
+    <path d="M280 555 C330 555 330 420 380 400"/>
+    <path d="M610 375 H720"/>
+    <path d="M950 355 C1000 330 1015 265 1060 245"/>
+    <path d="M950 400 H1060"/>
+    <path d="M1185 480 V535"/>
+    <path d="M1060 600 C885 705 560 660 495 450"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+</svg>
