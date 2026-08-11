@@ -1,0 +1,24 @@
+[
+  {
+    "template_id": "healthcare_dependency_beginner",
+    "sector": "healthcare",
+    "learner_level": "beginner",
+    "learning_objective": "Identify critical assets and basic likelihood-impact reasoning.",
+    "asset_context": ["patient scheduling service", "identity provider", "backup process"],
+    "threat_context": "A third-party service outage may disrupt patient appointment workflows.",
+    "existing_controls": ["multi-factor authentication", "backup testing", "supplier review"],
+    "expected_outputs": ["assets", "threat statement", "likelihood", "impact", "controls", "residual risk", "treatment"],
+    "safety_boundary": "Risk assessment only; no exploit steps, payloads, or intrusion instructions."
+  },
+  {
+    "template_id": "university_data_intermediate",
+    "sector": "higher education",
+    "learner_level": "intermediate",
+    "learning_objective": "Assess residual risk and justify treatment options.",
+    "asset_context": ["student records portal", "research data store", "email service"],
+    "threat_context": "A policy change increases reliance on remote access and third-party integrations.",
+    "existing_controls": ["role-based access control", "security awareness training", "log review"],
+    "expected_outputs": ["risk register entry", "likelihood-impact rating", "control gap analysis", "residual risk justification"],
+    "safety_boundary": "Risk assessment only; no exploit steps, payloads, or intrusion instructions."
+  }
+]
