@@ -1,0 +1,52 @@
+<svg width="1400" height="720" viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="720" rx="28" fill="#fbfdff"/>
+  <text x="700" y="70" text-anchor="middle" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">Adaptive Scenario Generation Workflow</text>
+  <text x="700" y="112" text-anchor="middle" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">From learning objective to quality-assured cyber risk assessment scenario and feedback-driven adaptation</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <rect x="80" y="190" width="230" height="120" rx="20" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="195" y="238" text-anchor="middle" fill="#1e3a8a" font-size="18">1. Learning Objective</text>
+    <text x="195" y="268" text-anchor="middle" fill="#1e40af" font-size="13">risk scoring · controls · residual risk</text>
+
+    <rect x="390" y="190" width="230" height="120" rx="20" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="505" y="238" text-anchor="middle" fill="#065f46" font-size="18">2. Learner Model</text>
+    <text x="505" y="268" text-anchor="middle" fill="#047857" font-size="13">level · history · support need</text>
+
+    <rect x="700" y="190" width="230" height="120" rx="20" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="815" y="238" text-anchor="middle" fill="#4c1d95" font-size="18">3. Scenario Draft</text>
+    <text x="815" y="268" text-anchor="middle" fill="#5b21b6" font-size="13">AI-assisted structured case</text>
+
+    <rect x="1010" y="190" width="230" height="120" rx="20" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="1125" y="238" text-anchor="middle" fill="#155e75" font-size="18">4. QA Gate</text>
+    <text x="1125" y="268" text-anchor="middle" fill="#0e7490" font-size="13">correct · safe · coherent</text>
+
+    <rect x="1010" y="430" width="230" height="120" rx="20" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="1125" y="478" text-anchor="middle" fill="#166534" font-size="18">5. Training Task</text>
+    <text x="1125" y="508" text-anchor="middle" fill="#15803d" font-size="13">learner completes assessment</text>
+
+    <rect x="700" y="430" width="230" height="120" rx="20" fill="#fef3c7" stroke="#d97706"/>
+    <text x="815" y="478" text-anchor="middle" fill="#92400e" font-size="18">6. Evidence Capture</text>
+    <text x="815" y="508" text-anchor="middle" fill="#b45309" font-size="13">quality · time · engagement</text>
+
+    <rect x="390" y="430" width="230" height="120" rx="20" fill="#fff1f2" stroke="#e11d48"/>
+    <text x="505" y="478" text-anchor="middle" fill="#9f1239" font-size="18">7. Adaptation Signal</text>
+    <text x="505" y="508" text-anchor="middle" fill="#be123c" font-size="13">difficulty · feedback · next skill</text>
+
+    <rect x="80" y="430" width="230" height="120" rx="20" fill="#f8fafc" stroke="#64748b"/>
+    <text x="195" y="478" text-anchor="middle" fill="#334155" font-size="18">8. Instructor Insight</text>
+    <text x="195" y="508" text-anchor="middle" fill="#475569" font-size="13">review report and guidance</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M310 250 H390"/>
+    <path d="M620 250 H700"/>
+    <path d="M930 250 H1010"/>
+    <path d="M1125 310 V430"/>
+    <path d="M1010 490 H930"/>
+    <path d="M700 490 H620"/>
+    <path d="M390 490 H310"/>
+    <path d="M195 430 C180 350 225 320 390 250" stroke-dasharray="8 8"/>
+    <path d="M505 430 C520 360 610 330 700 300" stroke-dasharray="8 8"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+</svg>
