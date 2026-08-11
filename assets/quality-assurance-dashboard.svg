@@ -1,0 +1,45 @@
+<svg width="1400" height="780" viewBox="0 0 1400 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="780" rx="28" fill="#f8fafc"/>
+  <rect x="55" y="50" width="1290" height="95" rx="24" fill="#ffffff" stroke="#d5e1ef"/>
+  <text x="95" y="92" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800">Scenario Quality Assurance Dashboard</text>
+  <text x="95" y="124" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">Validating adaptive cyber risk assessment scenarios before learner deployment</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="55" y="185" width="290" height="120" rx="22" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="85" y="232" fill="#1e3a8a" font-size="18" font-weight="700">Correctness</text>
+    <text x="85" y="268" fill="#1e40af" font-size="34" font-weight="800">0.91</text>
+
+    <rect x="385" y="185" width="290" height="120" rx="22" fill="#ecfeff" stroke="#0891b2"/>
+    <text x="415" y="232" fill="#155e75" font-size="18" font-weight="700">Consistency</text>
+    <text x="415" y="268" fill="#0e7490" font-size="34" font-weight="800">0.88</text>
+
+    <rect x="715" y="185" width="290" height="120" rx="22" fill="#ecfdf5" stroke="#10b981"/>
+    <text x="745" y="232" fill="#065f46" font-size="18" font-weight="700">Pedagogical Fit</text>
+    <text x="745" y="268" fill="#047857" font-size="34" font-weight="800">0.86</text>
+
+    <rect x="1045" y="185" width="300" height="120" rx="22" fill="#fff1f2" stroke="#e11d48"/>
+    <text x="1075" y="232" fill="#9f1239" font-size="18" font-weight="700">Safety Boundary</text>
+    <text x="1075" y="268" fill="#be123c" font-size="34" font-weight="800">PASS</text>
+  </g>
+
+  <rect x="55" y="350" width="620" height="350" rx="26" fill="#ffffff" stroke="#d5e1ef"/>
+  <text x="95" y="398" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">QA Review Dimensions</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="17">
+    <text x="95" y="455" fill="#334155">Correctness</text><rect x="285" y="440" width="330" height="18" rx="9" fill="#e2e8f0"/><rect x="285" y="440" width="300" height="18" rx="9" fill="#2563eb"/>
+    <text x="95" y="505" fill="#334155">Scenario coherence</text><rect x="285" y="490" width="330" height="18" rx="9" fill="#e2e8f0"/><rect x="285" y="490" width="290" height="18" rx="9" fill="#0891b2"/>
+    <text x="95" y="555" fill="#334155">Learner alignment</text><rect x="285" y="540" width="330" height="18" rx="9" fill="#e2e8f0"/><rect x="285" y="540" width="275" height="18" rx="9" fill="#10b981"/>
+    <text x="95" y="605" fill="#334155">Realism</text><rect x="285" y="590" width="330" height="18" rx="9" fill="#e2e8f0"/><rect x="285" y="590" width="265" height="18" rx="9" fill="#7c3aed"/>
+    <text x="95" y="655" fill="#334155">Assessment value</text><rect x="285" y="640" width="330" height="18" rx="9" fill="#e2e8f0"/><rect x="285" y="640" width="285" height="18" rx="9" fill="#d97706"/>
+  </g>
+
+  <rect x="725" y="350" width="620" height="350" rx="26" fill="#ffffff" stroke="#d5e1ef"/>
+  <text x="765" y="398" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Instructor Decision Panel</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="765" y="435" width="530" height="58" rx="18" fill="#f0fdf4" stroke="#10b981"/>
+    <circle cx="795" cy="464" r="9" fill="#10b981"/><text x="820" y="471" fill="#166534" font-size="17" font-weight="700">Scenario is assessment-focused and safe for training.</text>
+    <rect x="765" y="515" width="530" height="58" rx="18" fill="#eff6ff" stroke="#2563eb"/>
+    <circle cx="795" cy="544" r="9" fill="#2563eb"/><text x="820" y="551" fill="#1d4ed8" font-size="17" font-weight="700">Risk matrix and expected learner outputs are aligned.</text>
+    <rect x="765" y="595" width="530" height="58" rx="18" fill="#fff7ed" stroke="#d97706"/>
+    <circle cx="795" cy="624" r="9" fill="#d97706"/><text x="820" y="631" fill="#92400e" font-size="17" font-weight="700">Needs domain examples before final deployment.</text>
+  </g>
+</svg>
