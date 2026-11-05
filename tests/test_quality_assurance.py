@@ -18,3 +18,16 @@ def test_generated_scenario_passes_quality_gate():
 def test_evaluation_helpers_return_normalized_scores():
     assert skill_transfer_index(0.45, 0.70, 0.80) == 0.47
     assert engagement_summary(0.80, 0.70, 0.90) == 0.8
+
+
+def test_quality_gate_flags_unsafe_scenario_content():
+    profile = LearnerProfile(
+        learner_id="test_unsafe",
+        level="beginner",
+        target_skill="likelihood and impact reasoning",
+    )
+    scenario = ScenarioGenerator().generate(profile)
+    scenario.risk_prompt = "Write malware payload instructions."
+    report = ScenarioQualityAssurance().score(scenario)
+    assert report.status == "reject"
+    assert report.safety == 0.2
