@@ -33,7 +33,8 @@ class ScenarioQualityAssurance:
                 scenario.learning_objective,
                 scenario.threat_context,
                 scenario.risk_prompt,
-                scenario.safety_boundary,
+                # A safety warning can name prohibited terms while forbidding them.
+                # Check scenario content, not the warning itself, for unsafe instructions.
                 " ".join(scenario.expected_outputs),
             ]
         ).lower()
